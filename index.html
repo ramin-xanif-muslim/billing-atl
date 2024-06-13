@@ -21,25 +21,27 @@
                 </div>
 
                 <aside class="menu">
-                    <div class="menu-item">
-                        <i class="fas fa-home"></i>
-                        <p>General</p>
-                    </div>
-                    <div class="menu-item">
-                        <i class="fas fa-lock"></i>
-                        <p>Password</p>
-                    </div>
-                    <div class="menu-item">
-                        <i class="fas fa-user-plus"></i>
-                        <p>Invitations</p>
-                    </div>
-                    <div class="menu-item active">
-                        <i class="fas fa-credit-card"></i>
-                        <p>Billing</p>
-                    </div>
-                    <div class="menu-item">
-                        <i class="fab fa-apple"></i>
-                        <p>Apps</p>
+                    <div>
+                        <div class="menu-item">
+                            <i class="fas fa-home"></i>
+                            <p>General</p>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fas fa-lock"></i>
+                            <p>Password</p>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fas fa-user-plus"></i>
+                            <p>Invitations</p>
+                        </div>
+                        <div class="menu-item active">
+                            <i class="fas fa-credit-card"></i>
+                            <p>Billing</p>
+                        </div>
+                        <div class="menu-item">
+                            <i class="fab fa-apple"></i>
+                            <p>Apps</p>
+                        </div>
                     </div>
                     <div class="menu-item last">
                         <i class="fas fa-sign-out-alt"></i>
@@ -50,63 +52,62 @@
 
             <!-- content -->
             <section class="content">
-                <div>
-                    <h1>Billing</h1>
-    
-                    <div class="billing-info">
-                        <h2>Order History</h2>
-                        <p>Manage billing information and view receips</p>
+                <h1>Billing</h1>
+
+                <div class="billing-info">
+                    <h2>Order History</h2>
+                    <p>Manage billing information and view receips</p>
+                </div>
+
+                <!-- table -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Type</th>
+                            <th>Receipt</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Oct. 21, 2021</td>
+                            <td>Pro Annual</td>
+                            <td><button>Download</button></td>
+                        </tr>
+                        <tr class="active">
+                            <td>Oct. 21, 2021</td>
+                            <td>Pro Annual</td>
+                            <td><button>Download</button></td>
+                        </tr>
+                        <tr>
+                            <td>Oct. 21, 2021</td>
+                            <td>Pro Annual</td>
+                            <td><button>Download</button></td>
+                        </tr>
+                        <tr>
+                            <td>Oct. 21, 2021</td>
+                            <td>Pro Annual</td>
+                            <td><button>Download</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <a href="#" class="load-more">Load more</a>
+
+                <div class="billing-info">
+                    <h2>Payment Method</h2>
+                    <p>Manage billing information and view receips</p>
+                </div>
+
+                <div class="visa">
+                    <div>
+                        <button class="btn">
+                            <img src="./assets/images/visa.svg" alt="visa" />
+                        </button>
+                        <p>Visa ending in 2255</p>
                     </div>
-    
-                    <!-- table -->
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Date</th>
-                                <th>Type</th>
-                                <th>Receipt</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Oct. 21, 2021</td>
-                                <td>Pro Annual</td>
-                                <td><button>Download</button></td>
-                            </tr>
-                            <tr>
-                                <td>Oct. 21, 2021</td>
-                                <td>Pro Annual</td>
-                                <td><button>Download</button></td>
-                            </tr>
-                            <tr>
-                                <td>Oct. 21, 2021</td>
-                                <td>Pro Annual</td>
-                                <td><button>Download</button></td>
-                            </tr>
-                            <tr>
-                                <td>Oct. 21, 2021</td>
-                                <td>Pro Annual</td>
-                                <td><button>Download</button></td>
-                            </tr>
-                        </tbody>
-                    </table>
-    
-                    <a href="#" class="load-more">Load more</a>
-    
-                    <div class="billing-info">
-                        <h2>Payment Method</h2>
-                        <p>Manage billing information and view receips</p>
-                    </div>
-    
-                    <div class="visa">
-                        <div>
-                            <button class="btn">
-                                <img src="./assets/images/visa.svg" alt="visa" />
-                            </button>
-                            <p>Visa ending in 2255</p>
-                        </div>
-                        <button class="remove">Remove</button>
-                    </div></div>
+                    <button class="remove">Remove</button>
+                </div>
 
                 <section class="plan">
                     <p>Your plan</p>
