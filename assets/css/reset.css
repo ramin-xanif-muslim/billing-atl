@@ -44,14 +44,9 @@ html input[disabled] {
 img,
 picture,
 video {
-    /* display: block; */
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-    /* font-style: italic;
-    background-repeat: no-repeat;
-    background-size: cover;
-    shape-margin: 0.75rem; */
 }
 
 ol,
@@ -125,23 +120,3 @@ textarea {
 img {
     width: 100%;
 }
-
-/* ::-moz-focus-inner {
-    border-style: none;
-
-} */
-
-/* input[type=search] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-} */
-/* input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-} */
