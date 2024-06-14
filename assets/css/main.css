@@ -152,8 +152,15 @@ a {
     height: 56px;
     padding: 8px 16px 8px 16px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .content table tr.active {
+    box-shadow: 0px 8px 19px 0px #dfdffd99;
+}
+.content table tr:active {
+    box-shadow: 0px 8px 19px 0px #dfdffd99;
+}
+.content table tr:hover {
     box-shadow: 0px 8px 19px 0px #dfdffd99;
 }
 .content table thead tr th {
@@ -165,6 +172,12 @@ a {
     font-size: 16px;
     font-weight: 500;
     color: #1a194d;
+}
+.content table tbody tr td button {
+    /* height: 40px; */
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #CBCBD9;
 }
 .load-more {
     margin: 16px 0 0 68px;
